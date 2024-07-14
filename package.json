@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/index.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Srijan Tripathi",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "framer-motion": "^11.2.12",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
